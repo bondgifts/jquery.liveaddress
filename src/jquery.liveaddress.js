@@ -1466,7 +1466,7 @@
 
 			html += '</div><div class="smarty-choice-alt">';
 			html += '<a href="javascript:" class="smarty-choice smarty-choice-abort smarty-abort">Click here to change your address</a>';
-			html += '<a href="javascript:" class="smarty-choice smarty-choice-override">Click here to certify the address is correct<br>('+addr.toString()+')</a>';
+			// html += '<a href="javascript:" class="smarty-choice smarty-choice-override">Click here to certify the address is correct: ('+addr.toString()+')</a>';
 			html += '</div></div></div>';
 			$(html).hide().appendTo('body').show(defaults.speed);
 
